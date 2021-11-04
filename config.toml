@@ -24,7 +24,7 @@ iconHeight = 24
 [params.profileMode]
 enabled = true
 title = "Ramon Guzman"
-subtitle = "I am a Person"
+subtitle = "I am a Computer Scientist"
 imageUrl = "profile.png"
 imageWidth = 120
 imageHeight = 120
@@ -58,9 +58,9 @@ name = "gitlab"
 url = "https://gitlab.com/"
 
 [[menu.main]]
-identifier = "blog"
-name = "blog"
-url = "/blog/"
+identifier = "About Me"
+name = "About Me"
+url = "/About Me/"
 weight = 10
 
 [[menu.main]]
@@ -70,7 +70,13 @@ url = "/projects/"
 weight = 20
 
 [[menu.main]]
-identifier = "link"
-name = "A link"
+identifier = "Resume"
+name = "Resume"
 url = "https://google.com/search?tbm=isch&q=cute%20puppies"
 weight = 30
+
+[[menu.main]]
+identifier = "List of Skills"
+name = "List of Skills"
+url = "/List of Skills/"
+weight = 20
