@@ -1,6 +1,6 @@
 baseURL = "/"
-title = "My Portfolio Title"
-theme = "PaperMod"
+title = "Ramon Website"
+theme = "Terminal Theme"
 
 # Theme configuration
 [params]
@@ -8,7 +8,7 @@ theme = "PaperMod"
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
+  ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
@@ -17,7 +17,7 @@ theme = "PaperMod"
   # show selector to switch language
   showLanguageSelector = false
 
-  # set theme to full screen width
+  set theme to full screen width
   fullWidthTheme = false
 
   # center theme with default width
@@ -67,15 +67,15 @@ theme = "PaperMod"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Ramon Guzman"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "About Me"
+        name = "About Me"
+        url = "/about me"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = " Resume"
+        name = "Resume"
+        url = "/resume"
