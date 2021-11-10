@@ -64,16 +64,16 @@ url = "/About Me/"
 weight = 10
 
 [[menu.main]]
-identifier = "projects"
-name = "projects"
-url = "/projects/"
-weight = 20
-
-[[menu.main]]
 identifier = "Resume"
 name = "Resume"
 url = "https://google.com/search?tbm=isch&q=cute%20puppies"
 weight = 30
+
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 20
 
 [[menu.main]]
 identifier = "List of Skills"
