@@ -1,14 +1,14 @@
-baseURL = "/"
-title = "Ramon Website"
-theme = "hugo-theme-terminal"
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
 
- #Theme configuration
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-  ["orange", "blue", "red", "green", "pink"]
+  # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
@@ -53,7 +53,7 @@ theme = "hugo-theme-terminal"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Ramon Guzman"
+    title = "Terminal"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -67,15 +67,15 @@ theme = "hugo-theme-terminal"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Ramon Guzman"
+      logoText = "Terminal"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "About Me"
-        name = "About Me"
-        url = "/about me"
+        identifier = "about"
+        name = "About"
+        url = "/about"
       [[languages.en.menu.main]]
-        identifier = " Resume"
-        name = "Resume"
-        url = "/resume"
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
